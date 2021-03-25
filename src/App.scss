@@ -1,0 +1,99 @@
+$secondary_color: #32b4e6;
+$text-color: #808080;
+$button-color: #c13c00;
+$face-color: #d3d3d3;
+
+@mixin button($color) {
+	    padding: 6px;
+		font-size: 13px;
+		border: 0.5px solid $color;
+		background: inherit;
+		color: $color;
+		border-radius: 5px;
+		cursor: pointer;
+		margin-top: 15px;
+}
+
+
+* {
+	font-family: Arial;
+	margin: 0;
+	padding: 0;
+}
+.header{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	h2 {
+		margin: 30px 0px 10px 0;
+	}
+	hr {
+		width: 100px;
+		height: 5px;
+		background-color: $secondary_color;
+		border: none;
+		border-radius: 10px;
+	}
+}
+.empty_page {
+	color: $face-color;
+	text-align: center;
+	padding-top: 50px;
+	.face {
+		color: $face-color;
+		width: 100px;
+		height: 100px;
+	}
+	.refresh-button {
+		@include button($secondary-color);
+	}
+}
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	.main-wrapper {
+		box-shadow: 1px 5px 20px rgba(0, 0, 0, 0.5);
+		background-color: white;
+		width: 40%;
+		.image {
+			width: 100%;
+		}
+		.information {
+			margin: 20px;
+			float: left;
+			font-size: 13px;
+			word-break: break-all;
+			color: $text-color;
+			.read_more {
+				color: $secondary_color;
+				cursor: pointer;
+			}
+			.button-holder {
+				text-align: center;
+				.button {
+					@include button($button-color);
+				}					
+			}
+		}
+		.price {
+			color: $secondary_color;
+			float: right;
+			padding: 15px;
+		}
+		.destination {
+			float: left;
+			padding: 15px;
+		}
+	}
+}
+
+@media screen and (max-width: 800px){
+	.card {
+		.main-wrapper {
+			width: 85%;
+		}
+	}
+}
