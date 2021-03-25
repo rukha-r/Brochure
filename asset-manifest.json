@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Brochure/static/css/main.0e286756.chunk.css",
+    "main.js": "/Brochure/static/js/main.1c66a83f.chunk.js",
+    "main.js.map": "/Brochure/static/js/main.1c66a83f.chunk.js.map",
+    "runtime-main.js": "/Brochure/static/js/runtime-main.67b4fdb8.js",
+    "runtime-main.js.map": "/Brochure/static/js/runtime-main.67b4fdb8.js.map",
+    "static/js/2.203009db.chunk.js": "/Brochure/static/js/2.203009db.chunk.js",
+    "static/js/2.203009db.chunk.js.map": "/Brochure/static/js/2.203009db.chunk.js.map",
+    "index.html": "/Brochure/index.html",
+    "static/css/main.0e286756.chunk.css.map": "/Brochure/static/css/main.0e286756.chunk.css.map",
+    "static/js/2.203009db.chunk.js.LICENSE.txt": "/Brochure/static/js/2.203009db.chunk.js.LICENSE.txt",
+    "static/media/istanbul.ca724a0c.jpg": "/Brochure/static/media/istanbul.ca724a0c.jpg",
+    "static/media/paris.40c3dac7.jpg": "/Brochure/static/media/paris.40c3dac7.jpg",
+    "static/media/rome.903b1fdb.jpg": "/Brochure/static/media/rome.903b1fdb.jpg",
+    "static/media/uk.c2aa14c0.jpg": "/Brochure/static/media/uk.c2aa14c0.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.67b4fdb8.js",
+    "static/js/2.203009db.chunk.js",
+    "static/css/main.0e286756.chunk.css",
+    "static/js/main.1c66a83f.chunk.js"
+  ]
+}
